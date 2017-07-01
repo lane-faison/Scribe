@@ -24,6 +24,7 @@
 		F625928A1F07158500FD88C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F625928C1F07158500FD88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62592951F07180400FD88C2 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		F62592971F0720B000FD88C2 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		F625927F1F07158500FD88C2 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				F62592981F0720BA00FD88C2 /* Resources */,
 				F62592921F0717CA00FD88C2 /* Model */,
 				F62592931F0717D500FD88C2 /* View */,
 				F62592941F0717DA00FD88C2 /* Controller */,
@@ -89,6 +91,14 @@
 				F62592821F07158500FD88C2 /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		F62592981F0720BA00FD88C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F62592971F0720B000FD88C2 /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
