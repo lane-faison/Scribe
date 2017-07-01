@@ -13,6 +13,7 @@
 		F62592881F07158500FD88C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62592871F07158500FD88C2 /* Assets.xcassets */; };
 		F625928B1F07158500FD88C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62592891F07158500FD88C2 /* LaunchScreen.storyboard */; };
 		F62592961F07180400FD88C2 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62592951F07180400FD88C2 /* CircleButton.swift */; };
+		F6E9D79C1F075C0900AFA802 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F6E9D79B1F075C0900AFA802 /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,7 @@
 		F625928A1F07158500FD88C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F625928C1F07158500FD88C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62592951F07180400FD88C2 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
-		F62592971F0720B000FD88C2 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
+		F6E9D79B1F075C0900AFA802 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +97,7 @@
 		F62592981F0720BA00FD88C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F62592971F0720B000FD88C2 /* test.m4a */,
+				F6E9D79B1F075C0900AFA802 /* test.m4a */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -161,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E9D79C1F075C0900AFA802 /* test.m4a in Resources */,
 				F625928B1F07158500FD88C2 /* LaunchScreen.storyboard in Resources */,
 				F62592881F07158500FD88C2 /* Assets.xcassets in Resources */,
 				F62592861F07158500FD88C2 /* Main.storyboard in Resources */,
@@ -340,6 +342,7 @@
 				F62592911F07158500FD88C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
